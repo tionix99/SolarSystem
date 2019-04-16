@@ -1,0 +1,56 @@
+body { 
+	margin: 0; 
+}
+
+#app-container {
+	margin: 0; 
+	font-family: sans-serif; 
+	font-size: 15px; 
+	margin-left: 12%;
+	width: 644px;
+	height: 596px;
+	border: black solid 2px;
+}
+
+
+
+
+#app-container a, li, ul, div, label, button { /* невыбираемость */
+	-moz-user-select: none; 
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#app-container ul { 
+	list-style: none; 
+	padding: 0; 
+	margin: 1px;
+}
+
+
+
+
+#app-container canvas {
+	width: 640px;
+	height: 540px;
+
+}
+
+#app-container .ON { 
+	background: #b2db8c; 
+}
+
+
+#app-container .str> li {
+	display: inline-block;
+	padding: 0px 2px 1px 2px;
+	font-weight: bold;
+	color: #535353;
+}
+
+
+
+#app-container .grey-border {
+	border: #60606033 solid 1px;
+}

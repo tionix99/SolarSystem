@@ -1,0 +1,10 @@
+
+
+/* .input-number  */
+input[type="number"] { 
+	border: 1px solid #c8c8c866;
+	font-size: 14px;
+	/* margin: 2px 0px; */
+	text-align: center;
+	width: 48px; 
+}
